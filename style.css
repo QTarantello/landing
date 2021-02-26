@@ -1,3 +1,5 @@
+@import url("./fonts/stylesheet.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,5 +8,61 @@
 html,
 body {
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Graphik LCG";
+}
+
+.container {
+  height: 100%;
+  background-color: #e5e5e5;
+}
+
+.content {
+  margin: 0 auto;
+  width: 1440px;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 95px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.header__logo {
+  margin-left: 51px;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.header__menu--item {
+  margin-left: 51px;
+}
+
+.header__buttons {
+  margin-left: auto;
+  padding-right: 51px;
+}
+
+.header__buttons--login {
+  width: 120px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 0px;
+  background-color: #ffffff;
+}
+
+.header__buttons--trial {
+  width: 120px;
+  color: #ffffff;
+  height: 45px;
+  background-color: #ff6336;
+  border: none;
+  border-radius: 0px;
 }
