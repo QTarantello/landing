@@ -246,3 +246,124 @@ button {
 .features__item-fourth--pic {
   margin: 250px 0 0 75px;
 }
+
+.localize {
+  margin-top: 150px;
+  height: 1033px;
+  background-color: #fff8e4;
+}
+
+.localize__title {
+  padding: 120px 0 0 275px;
+  width: 890px;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.localize__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.localize__row__item--web-pic,
+.localize__row__item--mobile-pic,
+.localize__row__item--documents-pic,
+.localize__row__item--marketing-pic,
+.localize__row__item--iot-pic {
+  margin: 79px 0 0 200px;
+}
+
+.localize__row__item--games-pic {
+  margin: 79px 0 0 190px;
+}
+
+.localize__row__item--games-pic {
+  margin: 79px 0 0 190px;
+}
+
+.localize__row__item--web-title,
+.localize__row__item--mobile-title,
+.localize__row__item--games-title,
+.localize__row__item--documents-title,
+.localize__row__item--marketing-title,
+.localize__row__item--iot-title {
+  height: 35px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.localize__row__item--web-title {
+  margin: 26px 0 0 220px;
+  width: 120px;
+}
+
+.localize__row__item--mobile-title {
+  margin: 26px 0 0 210px;
+  width: 165px;
+}
+
+.localize__row__item--games-title {
+  margin: 26px 0 0 225px;
+  width: 91px;
+}
+
+.localize__row__item--documents-title {
+  margin: 26px 0 0 209px;
+  width: 142px;
+}
+
+.localize__row__item--marketing-title {
+  margin: 26px 0 0 170px;
+  width: 229px;
+}
+
+.localize__row__item--iot-title {
+  margin: 26px 0 0 260px;
+  width: 54px;
+}
+
+.localize__row__item--web-description,
+.localize__row__item--mobile-description,
+.localize__row__item--games-description,
+.localize__row__item--documents-description,
+.localize__row__item--marketing-description,
+.localize__row__item--iot-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.localize__row__item--web-description,
+.localize__row__item--mobile-description,
+.localize__row__item--games-description {
+  margin: 20px 0 0 129px;
+}
+
+.localize__row__item--web-description {
+  width: 303px;
+}
+
+.localize__row__item--mobile-description {
+  width: 330px;
+}
+
+.localize__row__item--games-description {
+  width: 281px;
+}
+
+.localize__row__item--documents-description {
+  margin: 20px 0 0 126px;
+  width: 309px;
+}
+
+.localize__row__item--marketing-description {
+  margin: 20px 0 0 126px;
+  width: 310px;
+}
+
+.localize__row__item--iot-description {
+  margin: 20px 0 0 126px;
+  width: 326px;
+}
