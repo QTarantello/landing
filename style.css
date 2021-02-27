@@ -1,4 +1,4 @@
-@import url("./fonts/stylesheet.css");
+@import url("fonts/stylesheet.css");
 
 * {
   margin: 0;
@@ -9,11 +9,11 @@ html,
 body {
   height: 100%;
   font-family: "Graphik LCG";
+  background-color: #e5e5e5;
 }
 
 .container {
   height: 100%;
-  background-color: #e5e5e5;
 }
 
 .content {
@@ -38,15 +38,28 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  font-size: 15px;
 }
 
 .header__menu--item {
   margin-left: 51px;
 }
 
+button {
+  font-family: "Graphik LCG";
+}
+
 .header__buttons {
   margin-left: auto;
   padding-right: 51px;
+}
+
+.header__buttons--login,
+.header__buttons--trial {
+  width: 120px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .header__buttons--login {
@@ -59,10 +72,81 @@ body {
 }
 
 .header__buttons--trial {
+  margin-left: 10px;
   width: 120px;
   color: #ffffff;
   height: 45px;
   background-color: #ff6336;
   border: none;
   border-radius: 0px;
+}
+
+.introduction {
+  height: 862px;
+  display: flex;
+  flex-direction: row;
+}
+
+.introduction-text__title {
+  margin: 129px 0 0 75px;
+  width: 552px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+}
+
+.introduction-text__description {
+  margin: 51px 0 0 75px;
+  width: 471px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.introduction-text__buttons {
+  margin: 50px 0 0 75px;
+}
+
+.introduction-text__buttons--trial,
+.introduction-text__buttons--demo {
+  width: 160px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.introduction-text__buttons--trial {
+  background-color: #ff6336;
+  border: none;
+  color: #ffffff;
+}
+
+.introduction-text__buttons--demo {
+  background-color: #ffffff;
+  margin-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.introduction-pic {
+  margin-top: 151px;
+}
+
+.clients-block {
+  height: 455px;
+  background-color: #ff9c7d;
+}
+
+.clients-block__title {
+  width: 720px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  padding: 108px 0 0 415px;
+}
+
+.clients-block__list {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0 0 100px;
 }
