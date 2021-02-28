@@ -484,3 +484,114 @@ button {
   margin: 53px 0 0 auto;
   padding-right: 75px;
 }
+
+.rate-block {
+  display: flex;
+  flex-direction: row;
+  height: 332px;
+  background-color: #dabc98;
+}
+
+.rate-block__cake {
+  margin-left: 54px;
+}
+
+.rate-block__text {
+  margin: 117px 0 0 67px;
+  width: 461px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.rate-block__border {
+  margin-left: 124px;
+}
+
+.rate-block__users-score {
+  margin-left: 71px;
+}
+
+.rate-block__highest-rated {
+  margin-left: 71px;
+}
+
+.integrate-block__title {
+  margin: 165px 0 0 325px;
+  width: 791px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 75px;
+  text-align: center;
+}
+
+.integrate-block__text {
+  margin-left: 451px;
+  width: 539px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.integrate-block__logo {
+  margin: 25px 0 0 208px;
+}
+
+.integrate-block__button {
+  margin: 32px 0 0 644px;
+  width: 193px;
+  height: 60px;
+  background-color: #ff6336;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  border-radius: 0px;
+}
+
+.try-now-block {
+  margin-top: 162px;
+  height: 603px;
+  background-color: #ff9c7d;
+}
+
+.try-now-block__title {
+  margin-left: 328px;
+  padding-top: 119px;
+  width: 784px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 75px;
+  text-align: center;
+}
+
+.try-now-block__text {
+  margin: 29px 0 0 515px;
+  width: 436px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.try-now-block__button {
+  margin: 54px 0 0 640px;
+  width: 160px;
+  height: 60px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 0px;
+  border: none;
+}
