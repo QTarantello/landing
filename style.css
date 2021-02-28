@@ -367,3 +367,120 @@ button {
   margin: 20px 0 0 126px;
   width: 326px;
 }
+
+.teams__title {
+  margin: 159px 0 0 75px;
+  width: 1287px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.teams__items {
+  display: flex;
+  flex-direction: row;
+}
+
+.teams__items--managers-pic {
+  margin: 75px 0 0 75px;
+}
+
+.teams__items--developers-pic {
+  margin: 92px 0 0 31px;
+}
+
+.teams__items--translators-pic {
+  margin: 84px 0 0 31px;
+}
+
+.teams__items--managers-title,
+.teams__items--developers-title,
+.teams__items--translators-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.teams__items--managers-title {
+  margin: 49px 0 0 75px;
+  width: 164px;
+}
+
+.teams__items--developers-title {
+  margin: 68px 0 0 31px;
+  width: 168px;
+}
+
+.teams__items--translators-title {
+  margin: 58px 0 0 31px;
+  width: 166px;
+}
+
+.teams__items--managers-description,
+.teams__items--developers-description,
+.teams__items--translators-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.teams__items--managers-description {
+  margin: 34px 0 0 75px;
+  width: 409px;
+}
+
+.teams__items--developers-description {
+  margin: 33px 0 0 31px;
+  width: 409px;
+}
+
+.teams__items--translators-description {
+  margin: 34px 0 0 31px;
+  width: 407px;
+}
+
+.teams__items--managers-learn,
+.teams__items--developers-learn,
+.teams__items--translators-learn {
+  margin: 25px 0 0 31px;
+  width: 109px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-decoration-line: underline;
+}
+
+.teams__items--managers-learn {
+  margin: 25px 0 0 75px;
+}
+
+.chief-block {
+  margin-top: 187px;
+  display: flex;
+  flex-direction: row;
+  background-color: #c9e8f2;
+  height: 468px;
+}
+
+.chief-block__text--quote {
+  margin: 63px 0 0 75px;
+  width: 895px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.chief-block__text--role {
+  margin: 23px 0 0 75px;
+}
+
+.chief-block__text--company-name {
+  margin: 23px 0 0 75px;
+}
+
+.chief-block__photo {
+  margin: 53px 0 0 auto;
+  padding-right: 75px;
+}
