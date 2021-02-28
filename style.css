@@ -595,3 +595,125 @@ button {
   border-radius: 0px;
   border: none;
 }
+
+.footer {
+  height: 900px;
+}
+
+.footer__lists {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__lists--case-studies-title {
+  margin: 92px 0 0 75px;
+  width: 257px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.footer__lists--case-studies-photo {
+  margin: 28px 0 0 75px;
+}
+
+.footer__lists--case-studies-specialized {
+  margin: 39px 0 0 75px;
+}
+
+.footer__lists--case-studies-text {
+  margin: 24px 0 0 75px;
+  width: 290px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer__lists--case-studies-read {
+  margin: 15px 0 0 75px;
+  width: 107px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer__lists--product {
+  margin: 92px 0 0 140px;
+}
+
+.footer__lists--support {
+  margin: 92px 0 0 142px;
+}
+
+.footer__lists--company {
+  margin: 92px 0 0 51px;
+}
+
+.footer__lists--legal {
+  margin: 92px 0 0 51px;
+}
+
+.footer__lists--product-title,
+.footer__lists--support-title,
+.footer__lists--company-title,
+.footer__lists--legal-title {
+  width: 79px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer__lists--product-items,
+.footer__lists--support-items,
+.footer__lists--company-items,
+.footer__lists--legal-items {
+  margin-top: 21px;
+}
+
+.footer__lists--product-item,
+.footer__lists--support-item,
+.footer__lists--company-item,
+.footer__lists--legal-item {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.footer__all-info--text {
+  margin: 52px 0 0 75px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__all-info--border {
+  margin: 95px 0 0 75px;
+}
+
+.footer__all-info--description {
+  margin: 10px 0 0 14px;
+  width: 301px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer__all-info--copyright {
+  margin: 10px 0 0 700px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer__all-info--copyright-years {
+  width: 73px;
+}
+
+.footer__all-info--copyright-reserved {
+  width: 109px;
+}
