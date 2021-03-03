@@ -71,7 +71,7 @@ button {
   background-color: #ffffff;
 }
 
-.header__buttons--trial {
+.header__buttons--start {
   margin-left: 10px;
   width: 120px;
   color: #ffffff;
@@ -87,8 +87,12 @@ button {
   flex-direction: row;
 }
 
+.introduction-text {
+  margin-left: 75px;
+}
+
 .introduction-text__title {
-  margin: 129px 0 0 75px;
+  margin-top: 129px;
   width: 552px;
   font-style: normal;
   font-weight: 600;
@@ -96,18 +100,19 @@ button {
 }
 
 .introduction-text__description {
-  margin: 51px 0 0 75px;
+  margin-top: 51px;
   width: 471px;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
+  line-height: 35px;
 }
 
 .introduction-text__buttons {
-  margin: 50px 0 0 75px;
+  margin-top: 51px;
 }
 
-.introduction-text__buttons--trial,
+.introduction-text__buttons--start,
 .introduction-text__buttons--demo {
   width: 160px;
   height: 60px;
@@ -115,20 +120,27 @@ button {
   font-weight: 600;
 }
 
-.introduction-text__buttons--trial {
+.introduction-text__buttons--start {
   background-color: #ff6336;
   border: none;
   color: #ffffff;
 }
 
 .introduction-text__buttons--demo {
-  background-color: #ffffff;
   margin-left: 10px;
+  background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
+.introduction-text__caption {
+  margin-top: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+}
+
 .introduction-pic {
-  margin-top: 151px;
+  margin-top: 141px;
 }
 
 .clients {
@@ -141,6 +153,7 @@ button {
   font-weight: 600;
   font-size: 50px;
   line-height: 60px;
+  text-align: center;
   padding: 108px 0 0 415px;
 }
 
@@ -151,13 +164,17 @@ button {
   margin: 100px 0 0 100px;
 }
 
+.features {
+  margin-left: 75px;
+}
+
 .features__item {
   display: flex;
   flex-direction: row;
 }
 
 .features__item-first-text--title {
-  margin: 241px 0 0 75px;
+  margin-top: 241px;
   width: 493px;
 }
 
@@ -167,12 +184,12 @@ button {
 }
 
 .features__item-third-text--title {
-  margin: 411px 0 0 75px;
+  margin-top: 411px;
   width: 397px;
 }
 
 .features__item-fourth-text--title {
-  margin: 373px 0 0 75px;
+  margin: 373px 0 0 138px;
   width: 397px;
 }
 
@@ -186,22 +203,20 @@ button {
 }
 
 .features__item-first-text--description {
-  margin: 30px 0 0 75px;
   width: 493px;
 }
 
 .features__item-second-text--description {
-  margin: 30px 0 0 138px;
+  margin-left: 138px;
   width: 450px;
 }
 
 .features__item-third-text--description {
-  margin: 30px 0 0 75px;
   width: 520px;
 }
 
 .features__item-fourth-text--description {
-  margin: 30px 0 0 75px;
+  margin-left: 138px;
   width: 520px;
 }
 
@@ -209,23 +224,22 @@ button {
 .features__item-second-text--description,
 .features__item-third-text--description,
 .features__item-fourth-text--description {
+  margin-top: 30px;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
   line-height: 30px;
 }
 
-.features__item-first--start-now,
-.features__item-second--start-now,
-.features__item-third--start-now,
-.features__item-fourth--start-now {
-  margin: 30px 0 0 75px;
+.features__item-odd--start-now,
+.features__item-even--start-now {
+  margin-top: 30px;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
 }
 
-.features__item-second--start-now {
+.features__item-even--start-now {
   margin: 30px 0 0 138px;
 }
 
@@ -234,17 +248,14 @@ button {
   padding-right: 75px;
 }
 
-.features__item-second--pic {
-  margin: 250px 0 0 75px;
-}
-
 .features__item-third--pic {
   margin: 250px 0 0 auto;
   padding-right: 75px;
 }
 
+.features__item-second--pic,
 .features__item-fourth--pic {
-  margin: 250px 0 0 75px;
+  margin-top: 250px;
 }
 
 .localize {
@@ -265,16 +276,8 @@ button {
   flex-direction: row;
 }
 
-.localize__row__item--web-pic,
-.localize__row__item--mobile-pic,
-.localize__row__item--documents-pic,
-.localize__row__item--marketing-pic,
-.localize__row__item--iot-pic {
+.localize__row__item--pic {
   margin: 79px 0 0 200px;
-}
-
-.localize__row__item--games-pic {
-  margin: 79px 0 0 190px;
 }
 
 .localize__row__item--games-pic {
@@ -368,8 +371,12 @@ button {
   width: 326px;
 }
 
+.teams {
+  margin-left: 75px;
+}
+
 .teams__title {
-  margin: 159px 0 0 75px;
+  margin-top: 159px;
   width: 1287px;
   font-style: normal;
   font-weight: 600;
@@ -382,7 +389,7 @@ button {
 }
 
 .teams__items--managers-pic {
-  margin: 75px 0 0 75px;
+  margin-top: 75px;
 }
 
 .teams__items--developers-pic {
@@ -402,7 +409,7 @@ button {
 }
 
 .teams__items--managers-title {
-  margin: 49px 0 0 75px;
+  margin-top: 49px;
   width: 164px;
 }
 
@@ -426,7 +433,7 @@ button {
 }
 
 .teams__items--managers-description {
-  margin: 34px 0 0 75px;
+  margin-top: 34px;
   width: 409px;
 }
 
@@ -443,7 +450,6 @@ button {
 .teams__items--managers-learn,
 .teams__items--developers-learn,
 .teams__items--translators-learn {
-  margin: 25px 0 0 31px;
   width: 109px;
   font-style: normal;
   font-weight: normal;
@@ -452,7 +458,12 @@ button {
 }
 
 .teams__items--managers-learn {
-  margin: 25px 0 0 75px;
+  margin-top: 25px;
+}
+
+.teams__items--developers-learn,
+.teams__items--translators-learn {
+  margin: 25px 0 0 31px;
 }
 
 .chief-block {
