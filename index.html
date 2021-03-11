@@ -10,22 +10,23 @@
   <body>
     <div class="container">
       <div class="content">
-        <div class="header">
-          <div class="header__logo">
+        <header class="header">
+          <a class="header__logo">
             <img src="./images/header-block/logo.svg" />
-          </div>
-          <div class="header__menu">
-            <div class="header__menu--item">Product</div>
-            <div class="header__menu--item">Features</div>
-            <div class="header__menu--item">Pricing</div>
-            <div class="header__menu--item">Case studies</div>
-            <div class="header__menu--item">Resources</div>
-          </div>
+          </a>
+          <nav class="header__menu">
+            <a class="header__menu--item">Product</a>
+            <a class="header__menu--item">Features</a>
+            <a class="header__menu--item">Pricing</a>
+            <a class="header__menu--item">Case studies</a>
+            <a class="header__menu--item">Resources</a>
+          </nav>
+          <div class="header__empty"></div>
           <div class="header__buttons">
-            <button class="header__buttons--login">Log in</button>
-            <button class="header__buttons--start">Try it free</button>
+            <button class="button-white header__buttons--login">Log in</button>
+            <button class="button-orange header__buttons--start">Try it free</button>
           </div>
-        </div>
+        </header>
         <div class="introduction">
           <div class="introduction-text">
             <div class="introduction-text__title">
@@ -37,10 +38,10 @@
               delivery.
             </div>
             <div class="introduction-text__buttons">
-              <button class="introduction-text__buttons--start">
+              <button class="button-orange introduction-text__buttons--start">
                 Try it free
               </button>
-              <button class="introduction-text__buttons--demo">
+              <button class="button-white introduction-text__buttons--demo">
                 Book a demo
               </button>
             </div>

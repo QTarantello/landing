@@ -7,27 +7,36 @@ body {
   background-color: #e5e5e5;
 }
 
-button {
-  font-family: "Graphik LCG";
-}
-
 .content {
   margin: 0 auto;
-  height: 10374px;
   width: 1440px;
   background-color: #ffffff;
+}
+
+.button-white {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.button-orange {
+  background-color: #ff6336;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0 50px 0 50px;
   height: 95px;
   border-bottom: 1px solid #d3d3d3;
 }
 
-.header__logo {
-  margin-left: 51px;
+.header__empty {
+  flex: 1;
 }
 
 .header__menu {
@@ -38,53 +47,30 @@ button {
 }
 
 .header__menu--item {
-  margin-left: 51px;
+  padding-left: 50px;
+  cursor: pointer;
 }
 
-.header__buttons {
-  margin-left: auto;
-  padding-right: 51px;
+.header__menu--item:hover {
+  text-decoration: underline;
 }
 
 .header__buttons--login,
-.header__buttons--trial {
+.header__buttons--start {
   width: 120px;
   height: 45px;
   font-size: 16px;
   font-weight: 600;
 }
 
-.header__buttons--login {
-  width: 120px;
-  height: 45px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  box-sizing: border-box;
-  border-radius: 0px;
-  background-color: #ffffff;
-}
-
-.header__buttons--start {
-  margin-left: 10px;
-  width: 120px;
-  color: #ffffff;
-  height: 45px;
-  background-color: #ff6336;
-  border: none;
-  border-radius: 0px;
-}
-
 .introduction {
   height: 862px;
   display: flex;
   flex-direction: row;
-}
-
-.introduction-text {
-  margin-left: 75px;
+  padding: 130px 70px 0 75px;
 }
 
 .introduction-text__title {
-  margin-top: 129px;
   width: 552px;
   font-style: normal;
   font-weight: 600;
@@ -112,27 +98,11 @@ button {
   font-weight: 600;
 }
 
-.introduction-text__buttons--start {
-  background-color: #ff6336;
-  border: none;
-  color: #ffffff;
-}
-
-.introduction-text__buttons--demo {
-  margin-left: 10px;
-  background-color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-}
-
 .introduction-text__caption {
   margin-top: 25px;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-}
-
-.introduction-pic {
-  margin-top: 141px;
 }
 
 .clients {
