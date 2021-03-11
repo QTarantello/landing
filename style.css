@@ -71,17 +71,14 @@ body {
 }
 
 .introduction-text__title {
-  width: 552px;
-  font-style: normal;
+  width: 550px;
   font-weight: 600;
   font-size: 65px;
 }
 
 .introduction-text__description {
-  margin-top: 51px;
-  width: 471px;
-  font-style: normal;
-  font-weight: normal;
+  margin-top: 50px;
+  width: 470px;
   font-size: 25px;
   line-height: 35px;
 }
@@ -100,30 +97,31 @@ body {
 
 .introduction-text__caption {
   margin-top: 25px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 15px;
 }
 
 .clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 455px;
   background-color: #ff9c7d;
 }
 
 .clients__title {
   width: 720px;
+  text-align: center;
   font-weight: 600;
   font-size: 50px;
   line-height: 60px;
-  text-align: center;
-  padding: 108px 0 0 415px;
+  margin-top: 110px;
 }
 
 .clients__list {
   width: 1200px;
   display: flex;
   justify-content: space-between;
-  margin: 100px 0 0 100px;
+  margin-top: 20px;
 }
 
 .features {
